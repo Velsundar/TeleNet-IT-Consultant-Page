@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Stylish&display=swap');
+.Footer{
+    height: 300px;
+    width: 100%;
+    background-color: green;
+    position: relative;
+}
+/* Foot Contact */
+.footContactLine{
+    background: whitesmoke;
+    height: 2px;
+    width: 200px;
+}
+.FootContact{
+    position: absolute;
+    color: white;
+    height: 110px;
+    width: 205px;
+    font-size: 20px;
+    font-weight: 700;
+    font-family: Stylish;
+    left: 30px;
+    top: 10px;
+}
+.FootNumber a{
+    text-decoration: none;
+    color: white;
+}
+.FootNumber a:hover{
+    color: black;
+}
+.FootMail a{
+    text-decoration: none;
+    color: white;
+}
+.FootMail a:hover{
+    color: black;
+}
+/* Foot Contact ends */
+/* Foot Addres  */
+.FootAddress{
+    position: absolute;
+    top: 130px;
+    left: 30px;
+    height: 120px;
+    width: 205px;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: Stylish;
+}
+/* FootServices */
+.FootServices{
+    position: absolute;
+    left: 40%;
+    top: 10px;
+    color: white;
+    font-size: 20px;
+    font-family: Stylish;
+}
+.footerServicesBullets a{
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+}
+.footerServicesBullets a:hover{
+    color: black;
+}
+.FootLogo{
+    position: absolute;
+    right: 50px;
+    top: 30px;
+}
+.SocialIcons1{
+    position: absolute;
+    top: 160px;
+    right: 240px;
+    color: white;
+}

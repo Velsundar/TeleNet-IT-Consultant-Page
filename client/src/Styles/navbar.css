@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
+
+*{
+    margin: 0;
+}
+/* body{
+    background-image: url(./Sources/Networking_image.jpeg);
+    background-size: cover;
+    background-attachment: scroll;
+} */
+.navbar{
+    height: 100px;
+    font-size: 25px;
+    font-weight: 600;
+}
+.navlink{
+   color: green;
+}
+.Logobold{
+    font-size: 40px;
+    font-weight: 900;
+}
+.green{
+    color: rgb(57, 202, 57);
+}
+.red{
+    color: maroon;
+}
+/* Mailsection */
+.maildiv1{
+    position: relative;
+    background-color: green;
+    height: 40px;
+    width: 100%;
+    color: white;
+    font-weight: 600;
+    font-size: 25px;
+    font-family: Comfortaa;
+}
+.SocialIcons{
+    position: absolute;
+    right: 0;
+    top: 0;
+    right: 20px;
+}

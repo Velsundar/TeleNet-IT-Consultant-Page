@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@1,300&display=swap');
+.CCTVmaindiv{
+    /* position: absolute; */
+    display: inline-block;
+    color: rgb(86, 219, 153);
+    background-color: transparent;
+    height: 200px;
+    width: 200px;
+    padding: 20px;
+    margin-top: 210px;
+}
+/* .CctvImages{
+    padding:10px;
+} */
+/* .cctvheadings{
+    display: inline-block;
+} */
+.CCTVmaindiv button{
+    border: 2px solid black;  
+}
+.cctvheading{
+    position: relative;
+    height: 300px;
+    width: 100%; 
+    background-color: transparent; 
+    font-family: Ubuntu;
+}
+.cctvheadings1 h1{
+    position: absolute;
+    color: black;
+    font-weight: 900;
+    top: 200px;
+    left: 60px;
+    font-family: Ubuntu;
+}
+.cctvheadings1 p{
+    position: absolute;
+    color: black;
+    font-weight: 600;
+    top: 250px;
+    left: 60px;
+}
+.section2{
+    position: relative;
+    height: 300px;
+    width: 100%;
+    background-color: white;
+    margin-top: 20px;
+}
+.section2 h1{
+    position: absolute;
+    color: gray;
+    top: 20px;
+    left: 30%;
+}
+.section2 b{
+    color: green;
+}
+.section2 p{
+    position: absolute;
+    color: gray;
+    font-size: 20px;
+    top: 100px;
+    left: 35%;
+}
+.section2 img{
+    position: absolute;
+    height: 300px;
+    width: 300px;
+}
+.sec2imagebg{
+    background-color: green;
+    height: 200px;
+    width: 100px;
+}

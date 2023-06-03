@@ -1,0 +1,87 @@
+.TopDivAboutUs{
+    position: relative;
+    height: 400px;
+    width: 100%;
+    /* background-color: black; */
+    background: linear-gradient(
+        to top,
+        white 0%,
+        white 25%,
+        black 25%,
+        black 100%
+      );}
+.TopDivAboutUs p{
+    position: absolute;
+    color: green;
+    top: 150px;
+    left: 80px;
+    font-size: 25px;
+    font-weight: 600; 
+}
+.underline{
+    position: absolute;
+    height: 2px;
+    width: 260px;
+    background-color: white;
+    top:230px ;
+    left: 80px;
+}
+.TopDivAboutUs h1{
+    position: absolute;
+    color: whitesmoke;
+    top: 250px;
+    left: 150px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.TopDivAboutUs img{
+    position: absolute;
+    height: 300px;
+    width: 300px;
+    right: 200px;
+    top: 70px;
+}
+.Section2{
+    position: relative;
+    height: 300px;
+    width: 100%;
+    font-family: 'Times New Roman', Times, serif;
+}
+.Section2 img{
+    position: absolute;
+    height: 250px;
+    width:400px;
+    left: 40px;
+}
+.Section2 h6{
+    position: absolute;
+    left: 475px;
+    color: green;
+}
+.Section2 h3{
+    position: absolute;
+    left: 475px;
+    top: 20px;
+    color: green;
+}
+.elementdivider{
+    position: absolute;
+    background-color: black;
+    height: 2px;
+    width: 250px;
+    left: 475px;
+    top: 60px;
+}
+.Section2 h4{
+    position: absolute;
+    left: 475px;
+    top: 70px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 560px;
+    color: green;
+}
+.Section2 p{
+    position: absolute;
+    left: 475px;
+    top: 140px;
+}
