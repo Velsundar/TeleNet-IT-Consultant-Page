@@ -1,3 +1,4 @@
+/* CSS Page for Both Security page and Home Automation Page */
 .SECURE_Sec2{
     height: 450px;
     width: 100%;
@@ -191,4 +192,57 @@
     width: 350px;
     left: 60px;
     top: 60px;
+}
+
+/* Home Automation Page Extras */
+.sec2Head{
+    position: absolute;
+    color: green;
+    left: 100px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.sec2Headspan{
+    /* position: absolute; */
+    color: gray;
+}
+.secpara1{
+    position: absolute;
+    color: grey;
+    font-size: large;
+    font-weight: 600;
+    left: 550px;
+    top: 40px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.Sec2_FutureDesc{
+    position: absolute;
+    background-color: white;
+    height: 300px;
+    width: 350px;
+    right: 270px;
+    top: 120px;
+    z-index: 1;
+    box-shadow: 1px 2px 8px 4px grey;
+    text-align: center;
+    padding: 20px;
+}
+.Sec2_FutureDesc h3{
+    color: green;
+}
+.Sec2_FutureDesc hr{
+    color: green;
+}
+.Sec2_FutureDesc button{
+    background-color: green;
+    color: white;
+    border: none;
+    box-shadow: 1px 1px 9px 3px grey;
+    border-radius: 3px;
+}
+.Home_Autosec2 img{
+    position: absolute;
+    height: 400px;
+    width: 450px;
+    top: 70px;
+    left: 300px;
 }
