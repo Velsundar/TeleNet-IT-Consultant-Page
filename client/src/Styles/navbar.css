@@ -43,3 +43,13 @@
     top: 0;
     right: 20px;
 }
+.carticon{
+    position: absolute;
+    right: 200px;
+    color: white;
+    background-color: transparent;
+    border: none;
+}
+.carticons:hover{
+    
+}
